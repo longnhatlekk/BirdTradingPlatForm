@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\API\\BirdPlatForm\\BirdPlatForm\\BirdPlatForm.csproj": {}
+    "D:\\SWP\\BirdPlatForm\\BirdPlatForm\\BirdPlatForm.csproj": {}
   },
   "projects": {
-    "D:\\API\\BirdPlatForm\\BirdPlatForm\\BirdPlatForm.csproj": {
+    "D:\\SWP\\BirdPlatForm\\BirdPlatForm\\BirdPlatForm.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\API\\BirdPlatForm\\BirdPlatForm\\BirdPlatForm.csproj",
+        "projectUniqueName": "D:\\SWP\\BirdPlatForm\\BirdPlatForm\\BirdPlatForm.csproj",
         "projectName": "BirdPlatForm",
-        "projectPath": "D:\\API\\BirdPlatForm\\BirdPlatForm\\BirdPlatForm.csproj",
+        "projectPath": "D:\\SWP\\BirdPlatForm\\BirdPlatForm\\BirdPlatForm.csproj",
         "packagesPath": "C:\\Users\\TGC\\.nuget\\packages\\",
-        "outputPath": "D:\\API\\BirdPlatForm\\BirdPlatForm\\obj\\",
+        "outputPath": "D:\\SWP\\BirdPlatForm\\BirdPlatForm\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,9 +44,29 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[6.0.6, )"
+            },
+            "Microsoft.AspNetCore.Hosting": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            },
+            "Microsoft.AspNetCore.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -62,9 +82,21 @@
               "target": "Package",
               "version": "[7.0.5, )"
             },
+            "Microsoft.Extensions.Primitives": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.2.3, )"
+              "version": "[6.5.0, )"
             }
           },
           "imports": [
